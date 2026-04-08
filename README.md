@@ -1,16 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Headsetter
 
-Currently, two official plugins are available:
+A sophisticated web-based security application designed to protect audio gear through digital monitoring. Headsetter provides a layer of security for headphones and speakers using a digital PIN system, proximity alerts, and live location tracking to prevent theft or loss.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React.js / Vite
 
-## Expanding the ESLint configuration
+APIs: Web Bluetooth API, Geolocation API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+State Management: React Hooks / Context API
+
+
+## Features
+
+- Audio PIN Lock: Secures audio output behind a digital PIN system.
+
+- Proximity Monitoring: Real-time tracking that triggers alerts if the device moves beyond a defined radius.
+- Live Location Tracking: Integration with Geolocation APIs to monitor the last known position of the hardware.
+- Web Bluetooth Integration: Seamless connection to peripheral audio devices directly from the browser.
+- Responsive UI: A modern, version interface optimized for both desktop and mobile monitoring.
+
+
+
+## Appendix
+
+If you have any feedback or suggestions on how to improve, please reach out via the contact section on the site or open an issue in this repository!
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hari-narayana-035ba1389/?skipRedirect=true)
+[![My Project](https://img.shields.io/badge/my_project-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fabulous-kelpie-360fd0.netlify.app)
+
+
+
